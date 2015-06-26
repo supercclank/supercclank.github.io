@@ -432,6 +432,7 @@ Small Device Styles
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: hidden;
   background-color: #FFF;
+  margin-bottom: 25px;
 }
 
 .project_title {
@@ -487,10 +488,20 @@ Small Device Styles
   color: transparent;
 }
 
-.project_picture p {
+#mattPuzzle p {
   position: absolute;
   z-index: 2;
-  top: 30%;
+  top: 15%;
+  left: 5%;
+  width: 90%;
+  text-align: center;
+  font-size: 72px;
+}
+
+#dracula p {
+  position: absolute;
+  z-index: 2;
+  top: 63%;
   left: 5%;
   width: 90%;
   text-align: center;
