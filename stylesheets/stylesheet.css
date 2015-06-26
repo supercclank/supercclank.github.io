@@ -138,7 +138,7 @@ img {
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
-  margin: 10px 0 10px 0;
+  margin: 0px 0 0px 0;
   border: 1px solid #ebebeb;
 
   box-shadow: 0 0 5px #ebebeb;
@@ -172,9 +172,8 @@ pre, code {
 
 pre {
   width: 100%;
-  padding: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
-  overflow: auto;
+  overflow: hidden;
 }
 
 code {
@@ -369,6 +368,39 @@ Full-Width Styles
 }
 
 
+.project_title {
+  margin: 0;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-shadow: #111 0px 0px 10px;
+}
+
+.project_tagline {
+    overflow-x: auto;
+    color: #000;
+    font-size: 18px;
+    background: none;
+    text-shadow: #111 0px 0px 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.project_tagline  p {
+  width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.project_picture {
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+
+.project_picture img{
+    max-width: 90%;
+}
 
 /*******************************************************************************
 Small Device Styles
